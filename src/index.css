@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for subtitle container */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(139, 92, 246) rgb(30, 41, 59);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgb(30, 41, 59);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgb(139, 92, 246);
+  border-radius: 4px;
+  border: 1px solid rgb(51, 65, 85);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgb(124, 58, 237);
+}
+
+/* Custom range slider */
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #8b5cf6;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
+  transition: all 0.2s ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 5px rgba(139, 92, 246, 0.4);
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #8b5cf6;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
+  transition: all 0.2s ease;
+}
+
+.slider::-moz-range-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 5px rgba(139, 92, 246, 0.4);
+}
+
+.slider::-webkit-slider-track {
+  background: #475569;
+  border-radius: 0.5rem;
+}
+
+.slider::-moz-range-track {
+  background: #475569;
+  border-radius: 0.5rem;
+}
+
+/* Smooth animations */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Prevent layout shift during transitions */
+.transform-gpu {
+  transform: translateZ(0);
+}
