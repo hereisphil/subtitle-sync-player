@@ -63,9 +63,14 @@ npm install
 npm run dev
 ```
 
-## 📝 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ---
-Created with ❤️ by [@hereisphil](https://github.com/hereisphil)
+
+## 👋 About the Author
+
+Hi! I’m Phillip Cantu, an American digital nomad, a Full Sail University web development student, and a [4Geeks Academy Full Stack Development with AI Bootcamp](https://4geeksacademy.com/us/apply?ref=REFERRALQEZPTJCK-17696). I’m passionate about creating modern, user-friendly, and practical applications that help people learn and build faster.
+
+You can find me here:
+
+- **GitHub:** [hereisphil](https://github.com/hereisphil)
+- **LinkedIn:** [PhillipCantu](https://www.linkedin.com/in/phillipcantu/)
+- **Instagram:** [@philtheotaku](https://www.instagram.com/philtheotaku/)
